@@ -1,0 +1,92 @@
+html, body {
+  margin: 0;
+  padding: 0;
+/*   opacity : 0; */
+  background: url("https://picsum.photos/1980?random=1") no-repeat;
+  background-size: cover;
+  /*  keep the inherited bg full size: ;  */
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body { opacity : 0 }
+
+.contain {
+  
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+  
+body {
+  font-size: 18px;
+  font-family: "Yellowtail", sans-serif;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+}
+  
+h1 {
+    font-size: 5.2rem;
+    animation: pulsate 0.11s ease-in-out infinite alternate;     
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+  animation: pulsate 0.11s ease-in-out infinite alternate
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #5271ff,
+      0 0 80px #5271ff,
+      0 0 90px #5271ff,
+      0 0 100px #5271ff,
+      0 0 150px #5271ff;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #5271ff,
+    0 0 73px #5271ff,
+    0 0 80px #5271ff,
+    0 0 94px #5271ff,
+    0 0 140px #5271ff;
+
+}
+
